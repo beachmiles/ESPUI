@@ -11,7 +11,7 @@
 #if defined(ESP32)
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-#include <LITTLEFS.h>
+#include <LittleFS.h>           //#include <LITTLEFS.h> DNE in new esp32 arduino library.
 
 #include "WiFi.h"
 
